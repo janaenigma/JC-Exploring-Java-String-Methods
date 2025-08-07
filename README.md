@@ -26,4 +26,11 @@ Submitted by: Baruc, Jana Enigma S.
 
 ![Exercise 4 Output](exercise4.png)
 
+### Exercise 5: `indexOf()` - Finding a Character or Substring
+1. **Prediction**: `Index of 'fox': 16`, `Index of 'z': 37`, `Index of 'cat': -1`
+   * This is because `indexOf()` returns the index of the character being searched. It returns `-1` when it is not found.
+2. **Observation/Output**
+
+![Exercise 5 Output](exercise5.png)
+
 

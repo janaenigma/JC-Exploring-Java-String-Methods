@@ -18,10 +18,19 @@ public class StringLab {
 //        System.out.println("The extracted substring is: " + part);
 
         // Exercise 4: toUpperCase() and toLowerCase() - Changing Case
-        String mixedCase = "This Is A Test";
-        String upper = mixedCase.toUpperCase();
-        String lower = mixedCase.toLowerCase();
-        System.out.println("Uppercase: " + upper);
-        System.out.println("Lowercase: " + lower);
+//        String mixedCase = "This Is A Test";
+//        String upper = mixedCase.toUpperCase();
+//        String lower = mixedCase.toLowerCase();
+//        System.out.println("Uppercase: " + upper);
+//        System.out.println("Lowercase: " + lower);
+
+        // Exercise 5: indexOf() - Finding a Character or Substring
+        String sentence = "The quick brown fox jumps over the lazy dog.";
+        int indexOfFox = sentence.indexOf("fox");
+        int indexOfZ = sentence.indexOf('z');
+        int indexOfCat = sentence.indexOf("cat");
+        System.out.println("Index of 'fox': " + indexOfFox);
+        System.out.println("Index of 'z: " + indexOfZ);
+        System.out.println("Index of 'cat': " + indexOfCat);
     }
 }
