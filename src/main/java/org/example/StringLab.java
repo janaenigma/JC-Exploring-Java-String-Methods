@@ -47,9 +47,16 @@ public class StringLab {
 //        System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
 
         // Exercise 7: replace() - Replacing Characters
-        String original = "I like cats. Cats are cute.";
-        String replaced = original.replace("cats", "dogs");
-        System.out.println("Original: " + original);
-        System.out.println("Replaced: " + replaced);
+//        String original = "I like cats. Cats are cute.";
+//        String replaced = original.replace("cats", "dogs");
+//        System.out.println("Original: " + original);
+//        System.out.println("Replaced: " + replaced);
+
+        // Exercise 8: trim() - Removing Whitespace
+        String padded = "   Lots of spaces   ";
+        String trimmed = padded.trim();
+        System.out.println("Padded string length: " + padded.length());
+        System.out.println("Trimmed string: '" + trimmed + "'");
+        System.out.println("Trimmed string length: " + trimmed.length());
     }
 }

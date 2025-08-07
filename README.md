@@ -47,3 +47,10 @@ Submitted by: Baruc, Jana Enigma S.
 ![Exercise 7 Output](exercise7.png)
 
 
+### Exercise 8: `trim()` - Removing Whitespace
+1. **Prediction**: `Padded string length: 20`, `Trimmed string: 'Lots of spaces'`, `Trimmed string length: 14`
+   * The `trim()` method only trims leading and trailing whitespaces, and does not delete the spaces between the strings.
+2. **Observation/Output**
+![Exercise 8 Output](exercise8.png)
+
+
