@@ -5,18 +5,21 @@ Submitted by: Baruc, Jana Enigma S.
 1. **Prediction**: `The length of the string is: 14`. 
    * This is because the total number of characters in the string given is **14**. This includes the comma, the space, and the exclamation point at the end of the string.
 2. **Observation/Output**
+
 ![Exercise 1 Output](exercise1.png)
 
 ### Exercise 2: `charAt()` - Accessing a Character
 1. **Prediction**: `The charcter at index 5 is: l`
    * This is because `String` has a zero-based index system. It also counts a space as a character.
 2. **Observation/Output**
+
 ![Exercise 2 Output](exercise2.png)
 
 ### Exercise 3: `substring()` - Extracting a Part of a String
 1. **Prediction**: `The extracted substring is: is`
    * This is because `String` extracts substring by using `.substring(beginIndex, endIndex -1)`.
 2. **Observation/Output**
+
 ![Exercise 3 Output](exercise3.png)
 
 ### Exercise 4: `toUpperCase()` and `toLowerCase()` - Changing Case
@@ -44,6 +47,7 @@ Submitted by: Baruc, Jana Enigma S.
 1. **Prediction**: `Original: I like cats. Cats are cute.`, `Replaced: I like dogs. Cats are cute.`
    * The `replace()` method only replaces the first `cats` because the second `Cats` use a different case.
 2. **Observation/Output**
+
 ![Exercise 7 Output](exercise7.png)
 
 
@@ -51,6 +55,7 @@ Submitted by: Baruc, Jana Enigma S.
 1. **Prediction**: `Padded string length: 20`, `Trimmed string: 'Lots of spaces'`, `Trimmed string length: 14`
    * The `trim()` method only trims leading and trailing whitespaces, and does not delete the spaces between the strings.
 2. **Observation/Output**
+
 ![Exercise 8 Output](exercise8.png)
 
 
