@@ -25,12 +25,25 @@ public class StringLab {
 //        System.out.println("Lowercase: " + lower);
 
         // Exercise 5: indexOf() - Finding a Character or Substring
-        String sentence = "The quick brown fox jumps over the lazy dog.";
-        int indexOfFox = sentence.indexOf("fox");
-        int indexOfZ = sentence.indexOf('z');
-        int indexOfCat = sentence.indexOf("cat");
-        System.out.println("Index of 'fox': " + indexOfFox);
-        System.out.println("Index of 'z: " + indexOfZ);
-        System.out.println("Index of 'cat': " + indexOfCat);
+//        String sentence = "The quick brown fox jumps over the lazy dog.";
+//        int indexOfFox = sentence.indexOf("fox");
+//        int indexOfZ = sentence.indexOf('z');
+//        int indexOfCat = sentence.indexOf("cat");
+//        System.out.println("Index of 'fox': " + indexOfFox);
+//        System.out.println("Index of 'z: " + indexOfZ);
+//        System.out.println("Index of 'cat': " + indexOfCat);
+
+        // Exercise 6: equals() vs. equalsIgnoreCase() - Comparing Strings
+        String str1 = "Java";
+        String str2 = "java";
+        String str3 = "Java";
+
+        boolean isEqual1 = str1.equals(str2);
+        boolean isEqual2 = str1.equals(str3);
+        boolean isEqualIgnoreCase = str1.equalsIgnoreCase(str2);
+
+        System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
+        System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
+        System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
     }
 }

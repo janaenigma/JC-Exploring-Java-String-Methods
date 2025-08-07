@@ -33,4 +33,10 @@ Submitted by: Baruc, Jana Enigma S.
 
 ![Exercise 5 Output](exercise5.png)
 
+### Exercise 6: `equals()` vs. `equalsIgnoreCase()` - Comparing Strings
+1. **Prediction**: `"Java".equals("java"): false`, `"Java".equals("Java"): true`, `"Java".equalsIgnoreCase("java"): true`
+   * The first statement will print `false` because "Java" and "java" have different cases. The second statement prints `true` because both strings now have the same case. The third statement prints `true` even when they're different case because it now ignores the case.
+2. **Observation/Output**
+![Exercise 6 Output](exercise6.png)
+
 
