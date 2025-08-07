@@ -17,4 +17,13 @@ Submitted by: Baruc, Jana Enigma S.
 1. **Prediction**: `The extracted substring is: is`
    * This is because `String` extracts substring by using `.substring(beginIndex, endIndex -1)`.
 2. **Observation/Output**
-   ![Exercise 3 Output](exercise3.png)
+![Exercise 3 Output](exercise3.png)
+
+### Exercise 4: `toUpperCase()` and `toLowerCase()` - Changing Case
+1. **Prediction**: `Uppercase: THIS IS A TEST`, `Lowercase: this is a test`
+   * This is because `toUpperCase()` changes the case of the string to uppercase and  `toLowerCase()` changes it to lower case. Since they are stored in two new different objects, the case of the new strings will follow the case as the method directs.
+2. **Observation/Output**
+
+![Exercise 4 Output](exercise4.png)
+
+

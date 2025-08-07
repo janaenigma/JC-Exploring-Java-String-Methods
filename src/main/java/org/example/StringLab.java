@@ -13,8 +13,15 @@ public class StringLab {
 //        System.out.println("The character at index 5 is: " + character);
 
         // Exercise 3: substring() - Extracting a Part of a String
-        String statement = "Java is powerful.";
-        String part = statement.substring(5, 7);
-        System.out.println("The extracted substring is: " + part);
+//        String statement = "Java is powerful.";
+//        String part = statement.substring(5, 7);
+//        System.out.println("The extracted substring is: " + part);
+
+        // Exercise 4: toUpperCase() and toLowerCase() - Changing Case
+        String mixedCase = "This Is A Test";
+        String upper = mixedCase.toUpperCase();
+        String lower = mixedCase.toLowerCase();
+        System.out.println("Uppercase: " + upper);
+        System.out.println("Lowercase: " + lower);
     }
 }
