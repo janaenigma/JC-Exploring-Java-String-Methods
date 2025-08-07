@@ -40,3 +40,10 @@ Submitted by: Baruc, Jana Enigma S.
 ![Exercise 6 Output](exercise6.png)
 
 
+### Exercise 7: `replace()` - Replacing Characters
+1. **Prediction**: `Original: I like cats. Cats are cute.`, `Replaced: I like dogs. Cats are cute.`
+   * The `replace()` method only replaces the first `cats` because the second `Cats` use a different case.
+2. **Observation/Output**
+![Exercise 7 Output](exercise7.png)
+
+
