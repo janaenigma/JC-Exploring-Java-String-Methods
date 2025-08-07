@@ -15,6 +15,6 @@ Submitted by: Baruc, Jana Enigma S.
 
 ### Exercise 3: `substring()` - Extracting a Part of a String
 1. **Prediction**: `The extracted substring is: is`
-   * This is because `String` extracts substring by using `.substring(firstIndex, lastIndex -1)`.
+   * This is because `String` extracts substring by using `.substring(beginIndex, endIndex -1)`.
 2. **Observation/Output**
-   ![Exercise 2 Output](exercise2.png)
+   ![Exercise 3 Output](exercise3.png)
