@@ -12,3 +12,9 @@ Submitted by: Baruc, Jana Enigma S.
    * This is because `String` has a zero-based index system. It also counts a space as a character.
 2. **Observation/Output**
 ![Exercise 2 Output](exercise2.png)
+
+### Exercise 3: `substring()` - Extracting a Part of a String
+1. **Prediction**: `The extracted substring is: is`
+   * This is because `String` extracts substring by using `.substring(firstIndex, lastIndex -1)`.
+2. **Observation/Output**
+   ![Exercise 2 Output](exercise2.png)
